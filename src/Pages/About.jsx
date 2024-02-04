@@ -1,24 +1,27 @@
-import React from 'react'
+import React from "react";
 
 function About() {
   return (
     <>
-          <div className="flex items-center justify-center min-h-screen bg-white p-8">
+      <div className="flex items-center justify-center min-h-screen bg-white p-2">
         <div className="flex flex-col items-center md:flex-row w-full max-w-4xl rounded-lg bg-white">
-          <div
-            className="flex flex-col items-center justify-center w-1/2 p-4"
-          >
+          <div className="flex flex-col items-center justify-center w-1/2">
             <div className="rounded-full overflow-hidden">
               <img
                 alt="Profile"
-                className=""
+                className="min-w-[380px]"
                 src="/photo_2023-04-21_22-18-22.jpg"
               />
             </div>
           </div>
-          <div className="flex flex-col justify-center w-1/2 p-4 text-center" dir='rtl'>
+          <div
+            className="flex flex-col justify-center w-1/2 p-4 mb-4 text-center"
+            dir="rtl"
+          >
             <h2 className="text-gray-700">سلام, من</h2>
-            <h1 className="text-4xl font-bold">میلاد باقری</h1>
+            <h1 className="text-4xl font-bold whitespace-nowrap">
+              میلاد باقری
+            </h1>
             <p className="text-gray-600">توسعه دهنده فرانت اند هستم.</p>
             <div className="mt-4 flex space-x-4 justify-center gap-1">
               <button className="inline-flex items-center justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
@@ -65,7 +68,7 @@ function About() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default About
+export default About;

@@ -7,7 +7,7 @@ function Contact() {
         className="flex flex-col items-center justify-center min-h-screen"
         dir="rtl"
       >
-        <div className="max-w-md w-full space-y-6">
+        <div className="max-w-md w-full space-y-6 px-2">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold">تماس</h1>
             <p className="text-gray-500 dark:text-gray-400">
@@ -73,8 +73,8 @@ function Contact() {
             </button>
           </div>
         </div>
-        <div className="mt-8">
-          <div className="flex justify-center space-x-4">
+        <div className="my-2">
+          <div className="flex gap-2">
             <a href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -127,9 +127,6 @@ function Contact() {
               </svg>
             </a>
           </div>
-        </div>
-        <div className="mt-8 text-center text-gray-500 dark:text-gray-400" dir="ltr">
-          <p>© 2024 Your Company Name. All rights reserved.</p>
         </div>
       </div>
     </>

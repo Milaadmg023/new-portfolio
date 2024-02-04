@@ -5,6 +5,7 @@ import About from './Pages/About';
 import Skills from './Pages/Skills';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
+import CopyRight from './Components/CopyRight';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
+      <CopyRight/>
     </Router>
   )
 }
