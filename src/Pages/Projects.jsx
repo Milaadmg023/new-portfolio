@@ -1,6 +1,8 @@
 import React from "react";
 
+
 function Projects() {
+
   return (
     <>
       <div className="w-full min-h-screen p-4 md:p-6 lg:p-8" dir="rtl">
