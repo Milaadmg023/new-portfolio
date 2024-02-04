@@ -1,39 +1,36 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
       <header className="px-4 lg:px-6 h-16 flex items-center">
         <h1 className="text-2xl font-bold">MD Pro</h1>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <a
+        <nav className="ml-auto flex gap-4 sm:gap-6" dir="rtl">
+          <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
-            rel="ugc"
+            to={'/'}
           >
             درباره من
-          </a>
-          <a
+          </Link>
+          <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
-            rel="ugc"
+            to={'/skills'}
           >
             مهارت ها
-          </a>
-          <a
+          </Link>
+          <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
-            rel="ugc"
+            to={'/projects'}
           >
             پروژه ها
-          </a>
-          <a
+          </Link>
+          <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
-            rel="ugc"
+            to={'/contact'}
           >
             تماس با من
-          </a>
+          </Link>
         </nav>
       </header>
     </>

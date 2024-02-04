@@ -16,19 +16,19 @@ function About() {
               />
             </div>
           </div>
-          <div className="flex flex-col justify-center w-1/2 p-4 text-center">
-            <h2 className="text-gray-700">Hello I'm</h2>
-            <h1 className="text-4xl font-bold">Milad Bageri</h1>
-            <p className="text-gray-600">Frontend Developer</p>
-            <div className="mt-4 flex space-x-4 justify-center">
+          <div className="flex flex-col justify-center w-1/2 p-4 text-center" dir='rtl'>
+            <h2 className="text-gray-700">سلام, من</h2>
+            <h1 className="text-4xl font-bold">میلاد باقری</h1>
+            <p className="text-gray-600">توسعه دهنده فرانت اند هستم.</p>
+            <div className="mt-4 flex space-x-4 justify-center gap-1">
               <button className="inline-flex items-center justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Download CV
+                دانلود رزومه
               </button>
               <button className="inline-flex items-center justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                Contact Info
+                اطلاعات تماس
               </button>
             </div>
-            <div className="mt-4 flex space-x-4 justify-center">
+            <div className="mt-4 flex space-x-4 justify-center gap-2">
               <svg
                 className="text-blue-600 h-6 w-6"
                 fill="none"
