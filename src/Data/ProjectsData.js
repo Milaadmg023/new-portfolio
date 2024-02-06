@@ -23,6 +23,14 @@ const ProjectsData = [
     source: "https://github.com/Milaadmg023/Company-Portfolio",
     demo: "https://company-portfolio-lovat.vercel.app/",
   },
+  {
+    title: "کلون Google Keep",
+    pic: "/Screenshot 2024-02-06 092724.png",
+    tech: "React Js, Mui, Beautiful dnd, Vercel",
+    desc: "کلون Google keep با قابلیت درگ و دراپ در کنار ظاهری شیک و مدرن",
+    source: "https://github.com/Milaadmg023/google-keep-clone",
+    demo: "https://google-keep-clone-mu-rose.vercel.app/",
+  },
 ];
 
 export default ProjectsData;
