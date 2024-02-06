@@ -128,6 +128,11 @@ function Contact() {
             </a>
           </div>
         </div>
+        <div className="my-2 flex gap-2 border p-1 border-2 rounded-lg">
+          <span>Telegram: @M_B92</span>
+          |
+          <span>Gmail: Bagerim962@gmail.com</span>
+        </div>
       </div>
     </>
   );

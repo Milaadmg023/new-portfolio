@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -28,7 +29,9 @@ function About() {
                 دانلود رزومه
               </button>
               <button className="inline-flex items-center justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                اطلاعات تماس
+                <Link to={'/contact'}>
+                                اطلاعات تماس
+                </Link>
               </button>
             </div>
             <div className="mt-4 flex space-x-4 justify-center gap-2">

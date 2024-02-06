@@ -31,6 +31,22 @@ const ProjectsData = [
     source: "https://github.com/Milaadmg023/google-keep-clone",
     demo: "https://google-keep-clone-mu-rose.vercel.app/",
   },
+  {
+    title: "سایت فروشگاهی",
+    pic: "/Screenshot 2024-02-06 115430.png",
+    tech: "React Js, Css, Vercel",
+    desc: "سایت فروشگاهی مدرن, رسپانسیو شده و SPA برای تجربه کاربری بهتر.",
+    source: "https://github.com/Milaadmg023/ecommerce-pro",
+    demo: "https://md-shop.vercel.app/",
+  },
+  {
+    title: "فروشگاه کفش",
+    pic: "/Screenshot 2024-02-06 121314.png",
+    tech: "React Js, Css, Vercel",
+    desc: "سایت فروشگاهی کفش با انیمیشن های زیبا و SPA جهت تجربه کاربری بهتر و راحت تر.",
+    source: "https://github.com/Milaadmg023/Shoes-Commerce",
+    demo: "https://shoes-commerce-mu.vercel.app/",
+  },
 ];
 
 export default ProjectsData;
