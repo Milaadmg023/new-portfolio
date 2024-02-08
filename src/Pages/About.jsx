@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -26,12 +26,12 @@ function About() {
             <p className="text-gray-600">توسعه دهنده فرانت اند هستم.</p>
             <div className="mt-4 flex space-x-4 justify-center gap-1">
               <button className="inline-flex items-center justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                دانلود رزومه
+                <a href="https://cvbuilder.me/Resume/fa/f3ec4c74-9e0c-41f1-85f2-749311908f17?template=Template22" >
+                  دانلود رزومه
+                </a>
               </button>
               <button className="inline-flex items-center justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                <Link to={'/contact'}>
-                                اطلاعات تماس
-                </Link>
+                <Link to={"/contact"}>اطلاعات تماس</Link>
               </button>
             </div>
             <div className="mt-4 flex space-x-4 justify-center gap-2">
