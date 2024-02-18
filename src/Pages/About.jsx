@@ -1,9 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Loader from './../Components/Loader';
 
 function About() {
+  const [loading, setLoading] = React.useState(true);
+  React.useEffect(()=>{
+    setLoading(false)
+  })
   return (
     <>
+      {loading && <Loader/>}
       <div className="flex items-center justify-center min-h-screen bg-white p-2">
         <div className="flex flex-col items-center md:flex-row w-full max-w-4xl rounded-lg bg-white">
           <div className="flex flex-col items-center justify-center w-1/2">

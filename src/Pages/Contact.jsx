@@ -1,8 +1,14 @@
 import React from "react";
+import Loader from "../Components/Loader";
 
 function Contact() {
+  const [loading, setLoading] = React.useState(true);
+  React.useEffect(()=>{
+    setLoading(false)
+  })
   return (
     <>
+      {loading && <Loader/>}
       <div
         className="flex flex-col items-center justify-center min-h-screen"
         dir="rtl"

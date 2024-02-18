@@ -1,8 +1,14 @@
 import React from "react";
+import Loader from "../Components/Loader";
 
 function Skills() {
+  const [loading, setLoading] = React.useState(true);
+  React.useEffect(()=>{
+    setLoading(false)
+  })
   return (
     <>
+      {loading && <Loader/>}
       <div className="w-full min-h-screen ">
         <main className="container mx-auto p-4 md:p-8">
           <section className="w-full py-12 md:py-24 lg:py-32">

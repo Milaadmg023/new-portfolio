@@ -1,10 +1,15 @@
 import React from "react";
 import ProjectsData from "./../Data/ProjectsData";
+import Loader from "../Components/Loader";
 
 function Projects() {
-  console.log(ProjectsData);
+  const [loading, setLoading] = React.useState(true);
+  React.useEffect(()=>{
+    setLoading(false)
+  })
   return (
     <>
+      {loading && <Loader/>}
       <div className="w-full min-h-screen p-4 md:p-6 lg:p-8" dir="rtl">
         <h1 className="text-4xl font-bold text-center mb-8">پروژه های من</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
